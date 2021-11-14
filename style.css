@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.serch_input{
+    width: 600px;
+    height: 60px;
+    font-size: 40px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+}
+
+#hah{
+    border-radius: 10px 50px 50px 10px;
+    border: none;
+    background-color: #fff;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 800px;
+    height: 600px;
+    background-color: #fff;
+
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    padding-bottom: 20px;
+}
+p{
+    font-weight: 800;
+    color: black;
+    font-size: 30px;
+}
+
+.button{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    background-color: rgb(9, 255, 0); 
+    font-size: 20px;
+    margin-left: 10px;
+}
